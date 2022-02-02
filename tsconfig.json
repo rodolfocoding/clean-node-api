@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "outDir": "dist",
     "module": "commonjs",
     "target": "es2019",
+    "sourceMap": true,
     "esModuleInterop": true,
     "allowJs": true,
     "strictNullChecks": true ,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["src"]
 }
