@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:coverage": "npm test --coverafe",
+    "test:coverage": "npm test --coverage",
     "test:staged": "jest --passWithNoTests",
     "build": "rimraf dist && tsc",
     "lint":"eslint ."
