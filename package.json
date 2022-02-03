@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
+    "test:coverage": "npm test --coverafe",
     "test:staged": "jest --passWithNoTests",
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "lint":"eslint ."
   },
   "keywords": [],
   "author": "",
