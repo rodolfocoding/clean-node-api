@@ -19,5 +19,9 @@
   "homepage": "https://github.com/rodolfocoding/clean-node-api#readme",
   "dependencies": {
     "git-commit-msg-linter": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "typescript": "^4.6.4"
   }
 }
