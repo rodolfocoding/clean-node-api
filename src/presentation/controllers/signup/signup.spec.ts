@@ -17,7 +17,7 @@ const makeEmailValidator = (): EmailValidator => {
 const makeAddAccount = (): AddAccount => {
   class AddAccountStub implements AddAccount {
     add (account: AddAccountModel): AccountModel {
-      const fakeAccount = { id: 'valid_id', name: 'valid_name', email: 'valid_email', password: 'valid_password' }
+      const fakeAccount = { id: 'valid_id', name: 'valid_name', email: 'valid_email@email.com', password: 'valid_password' }
 
       return fakeAccount
     }
