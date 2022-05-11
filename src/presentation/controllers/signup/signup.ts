@@ -38,9 +38,16 @@ export class SignUpController implements Controller {
         name, email, password
       })
 
+      const account = {
+        id: 'valid_id',
+        name: 'valid_name',
+        email: 'valid_email@email.com',
+        password: 'valid_password'
+      }
+
       return {
         statusCode: 200,
-        body: null
+        body: account
       }
     } catch (error) {
       return serverError()
